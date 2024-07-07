@@ -247,16 +247,27 @@ Input second integer: 39
 Expected Output
 25 != 39
 25 < 39 
-25 <= 3 */
+25 <= 39 */
 
-      /*    Scanner scanner=new Scanner(System.in);
+      /*     Scanner scanner=new Scanner(System.in);
         System.out.println(" write frist number ");
         int num1 = scanner.nextInt();
         System.out.println(" write second number ");
         int num2 = scanner.nextInt();
-                System.out.println(num1 + " != " + num2);
-                System.out.println(num1 + " < " + num2);
-                System.out.println(num1 + " <= " + num2);   */
+
+           if (num1 == num2  ) {
+               System.out.println(num1 + " = " + num2);
+           }
+           else if (num1 != num2 &&num1 < num2 && num1 <= num2 ) {
+                   System.out.println(num1 + " != " + num2);
+                    System.out.println(num1+" < "+num2);
+                    System.out.println(num1+" <= "+num2);
+                }
+           else if(num1 != num2 && num1>num2 && num1 >= num2) {
+            System.out.println(num1 + " != " + num2);
+            System.out.println(num1 + " > " + num2);
+            System.out.println(num1 + " >= " + num2);
+        }  */
 
 
 
